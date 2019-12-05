@@ -10,6 +10,10 @@ Basic Commands
 
     $ pip install -r requirements.txt
 
+* Run Migration::
+
+    $ python manage.py migrate
+
 * Create superuser so you can add articles via the admin::
 
     $ python manage.py createsuperuser
